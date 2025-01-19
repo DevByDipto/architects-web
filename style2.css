@@ -11,9 +11,6 @@
 .display-flex{
     display: flex;
 }
-.text-primary{
-    color: #FF900E;
-}
 
 /* dark-02 */
 .text-gray{
@@ -37,20 +34,6 @@
     padding: 20px 25px;
     border-radius: 8px;
     border: none;
-}
-
-main{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-main > section{
-    margin-top: 130px;
-}
-
-.section-title{
-  font-size: 2.8rem;
-  font-weight: 700;
 }
   /* header styles */
 
@@ -76,7 +59,7 @@ main > section{
   }
 /* ==================================================bujinai banner keno use hoise */
   .navbar, .banner{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
   }
 
@@ -96,47 +79,11 @@ main > section{
   .banner-image{
     width: 100%;
   }
-/* team and feature related styles */
-.teams{
-    align-items: center;
-}
 
-.team-image-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-}
-.our-featurs{
-    margin-left: 130px;
-    max-width: 530px;
-}
-
-.Quick-list{
-    font-weight: 500;
-}
   /* resposive mida query */
 
   @media screen and (max-width: 576px) {
-    .navbar, 
-    .nav-link,
-    .teams{
+    .navbar, .nav-link{
         flex-direction: column;
-    }
-    .team-image-container{
-        grid-template-columns: repeat(1, 1fr);
-       
-    }
-    .our-featurs{
-        margin-left: 20px;
-    }
-  }
-
-  /* medium size device */
-  @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
-        flex-direction: column;
-    }
-    .our-featurs{
-        margin-left: 50px auto;
     }
   }
