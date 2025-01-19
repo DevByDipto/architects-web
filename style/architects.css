@@ -227,11 +227,11 @@ width: 100%;
   }
 
   .facts-container {
-    justify-content: center;
+    justify-items: center;
     gap: 24px;
   }
 .sponsor-companis{
-  justify-content: center;
+  justify-items: center;
   gap: 50px;
 }
   .our-featurs {
